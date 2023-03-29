@@ -7,6 +7,7 @@
 /* Hover over a card to flip, can tab too. */
 
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Merriweather');
 
 /* default */
 *,
@@ -15,6 +16,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #0B0A09;
 }
 
 /* body */
@@ -28,7 +30,7 @@ body {
   align-items: center;
 
   background: hsl(220, 10%, 12%);
-  font-family: "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
+  font-family: "Merriweather", "Lato", "Segoe Ui", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 /* .flip-card-container */
